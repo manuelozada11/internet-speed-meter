@@ -1,0 +1,29 @@
+{
+  "name": "internet-speed-meter",
+  "version": "1.0.0",
+  "description": "take samples of the internet speed",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "internet",
+    "speed",
+    "meter",
+    "sample",
+    "nodejs",
+    "node",
+    "speed-test",
+    "test",
+    "fast"
+  ],
+  "author": "Manuel Lozada",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
